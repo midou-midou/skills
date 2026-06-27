@@ -1,0 +1,23 @@
+{
+  "skill_name": "elementui-table-design",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "帮我生成一个设备管理的表格页面，需要设备名称、设备类型、设备状态、安装位置、安装时间这些列，支持按设备名称和设备类型搜索，有添加、编辑、删除功能，API路径是/basic/api/device",
+      "expected_output": "生成完整的CRUD表格页面，包含index.vue、addDevice.vue、editDevice.vue、api/device.js",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "我需要一个访客登记列表页面，字段有访客姓名、身份证号、被访人员、来访事由、来访时间、离开时间。只要搜索和查看功能，不需要添加编辑删除。搜索条件是访客姓名和来访时间范围。API路径是/basic/api/visitor",
+      "expected_output": "生成只读表格页面，只有搜索和分页，没有CRUD对话框组件",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "创建一个预警事件管理页面，列包括预警类型（用tag显示）、预警级别（用tag显示不同颜色）、事件描述（超长显示tooltip）、发生时间、处理状态。搜索条件：预警类型下拉、处理状态下拉、时间范围。权限key用warning:event:xxx格式。API路径是/emergency/warning-event",
+      "expected_output": "生成带tag列、tooltip列、日期范围搜索的表格页面，带权限指令",
+      "files": []
+    }
+  ]
+}

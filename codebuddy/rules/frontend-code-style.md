@@ -1,7 +1,9 @@
 ---
+description: 
+alwaysApply: true
 enabled: true
-alwaysApply: false
-paths: ["*.vue", "*.ts", "*tsx", "*.jsx", "*.js", "*.css", "*.scss", "*.sass"]
+updatedAt: 2026-06-27T13:45:29.551Z
+provider: 
 ---
 
 # 前端代码风格规范
@@ -15,10 +17,11 @@ paths: ["*.vue", "*.ts", "*tsx", "*.jsx", "*.js", "*.css", "*.scss", "*.sass"]
 - 使用!判断 undefined 和 null
 
 # vue规范
+扫描package.json中如果有vue依赖则使用下面的规则
 - <style>标签中超过100行需要提出到同级目录下的单独的样式文件中
+- 根据项目中其他组件使用的样式语言来决定<style lang="">，如果没有css预编译器，就使用css
 - 使用v-model处理自定义组件、原生标签的双向绑定，不要用.sync
 - v-if和v-for不要写在同一个组件上
-
 
 ## SFC
 - 组件使用PascalCase风格的方式命名并创建文件夹
@@ -26,8 +29,7 @@ paths: ["*.vue", "*.ts", "*tsx", "*.jsx", "*.js", "*.css", "*.scss", "*.sass"]
 
 
 # react规范
-
-## react 项目
+扫描package.json中如果有react依赖则使用下面的规则
 - 组件使用PascalCase风格的方式命名并创建文件夹，内部有如下组件
   - UI组件
   - 容器组件

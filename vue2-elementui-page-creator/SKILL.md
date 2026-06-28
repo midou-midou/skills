@@ -1,5 +1,5 @@
 ---
-name: vue2-elementui-bmp-creator
+name: vue2-elementui-page-creator
 description: |
   Generates complete Vue 2 table pages using Element UI, following the prison-web project conventions. Produces a full CRUD table page including: search form, el-table with pagination, add/edit dialog sub-components, and API file. Use this skill whenever the user wants to create a table page, list page, CRUD page, or any page that displays data in a table with search and pagination. Trigger when they say things like "generate a table page", "I need a list page", "create a user management page", "make a CRUD page", "add a table with search", or any request involving table/list/CRUD page generation with Element UI — even if they don't explicitly say "table".
 ---

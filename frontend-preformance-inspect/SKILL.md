@@ -1,6 +1,8 @@
 ---
 name: frontend-performance-inspect
 description: 前端性能审查与优化技能，分析 Web Vitals 指标（LCP、FID、CLS、INP、TTFB），检查代码中的性能瓶颈（大组件、重复渲染、内存泄漏、资源加载等），给出可操作的优化建议。当用户提到页面卡顿、加载慢、性能优化、Web Vitals、LCP/CLS/FID/INP/TTFB、内存泄漏、组件性能、渲染性能、首屏优化、性能检测、性能分析、性能审查时使用此技能。即使用户只是说"页面有点慢"或"帮我看看性能问题"，也应该触发此技能。
+allowed-tools: 
+disable: true
 ---
 
 # 前端性能审查与优化

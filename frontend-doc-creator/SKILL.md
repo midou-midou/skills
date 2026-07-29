@@ -1,6 +1,8 @@
 ---
 name: frontend-doc-creator
 description: 为前端代码函数生成 JSDoc/TSDoc 注释文档。当用户提供代码目录并要求生成文档、添加函数注释、补全 JSDoc、写函数说明时使用此 skill。即使用户只说"给这个目录加文档"或"补全注释"，也应触发此 skill。
+allowed-tools: 
+disable: true
 ---
 
 # Frontend Doc Creator

@@ -1,7 +1,9 @@
 ---
 name: vue2-bmp-skill-workflow
-description: |
+description: Vue 2 业务管理平台（BMP）页面开发工作流编排技能。按顺序依次调用 vue2-elementui-page-creator（页面生成）、frontend-codereview（代码审查）、frontend-error-inspect（错误排查）、frontend-performance-inspect（性能审查）、frontend-doc-creator（注释文档编写）五个 skill，每一步提取摘要作为下一步的输入，每一步执行前需用户确认。当用户需要完整开发一个 Vue 2 + Element UI 的业务页面时触发此 skill，包括但不限于："帮我开发一个新页面"、"生成页面并检查质量"、"完整开发流程"、"从头到尾做一个页面"、"开发页面+审查+排错+性能"，以及任何暗示需要多步骤完整开发流程的场景。即使用户只说"生成页面"，如果上下文暗示需要完整质量保障流程，也应触发此 skill。
   Vue 2 业务管理平台（BMP）页面开发工作流编排技能。按顺序依次调用 vue2-elementui-page-creator（页面生成）、frontend-codereview（代码审查）、frontend-error-inspect（错误排查）、frontend-performance-inspect（性能审查）、frontend-doc-creator（注释文档编写）五个 skill，每一步提取摘要作为下一步的输入，每一步执行前需用户确认。当用户需要完整开发一个 Vue 2 + Element UI 的业务页面时触发此 skill，包括但不限于："帮我开发一个新页面"、"生成页面并检查质量"、"完整开发流程"、"从头到尾做一个页面"、"开发页面+审查+排错+性能"，以及任何暗示需要多步骤完整开发流程的场景。即使用户只说"生成页面"，如果上下文暗示需要完整质量保障流程，也应触发此 skill。
+allowed-tools: 
+disable: false
 ---
 
 # Vue 2 BMP 页面开发工作流

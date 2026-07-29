@@ -1,10 +1,12 @@
 ---
 name: elementui-form-design
-description: |
+description: Generates Vue form pages using Element UI components. Use this skill whenever the user wants to create form pages, edit forms, or generate form code that uses Element UI. Trigger when they say things like "generate a form page", "I need a form page", "create a user form", "make an edit form", or any request for form page generation.
   Generates Vue form pages using Element UI components. Use this skill whenever the user wants to create form pages, edit forms, or generate form code that uses Element UI. Trigger when they say things like "generate a form page", "I need a form page", "create a user form", "make an edit form", or any request for form page generation.
 compatibility:
   required_tools: []
   dependencies: []
+allowed-tools: 
+disable: true
 ---
 
 # Element UI Form Page Generator

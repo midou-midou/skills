@@ -1,6 +1,8 @@
 ---
 name: frontend-codereview
 description: 前端代码审查技能，对前端代码进行规范、质量、安全性审查并输出结构化报告。当用户明确要求 code review、代码审查、代码检查、帮忙看看代码时使用此技能。
+allowed-tools: 
+disable: false
 ---
 
 # 前端代码审查技能
